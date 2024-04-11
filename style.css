@@ -1,0 +1,29 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    /* You can add a background image or color here */
+    background-color: #2C4BBE; /* Example color based on your screenshot */
+    color: #ffffff;
+}
+
+nav.navbar {
+    /* Custom styles for your navigation if needed */
+}
+
+main {
+    /* Styles for the main content area */
+}
+
+footer {
+    background-color: #172D7E; /* Dark footer */
+}
+
+/* Responsive image/video styles */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Other responsive and custom styles can be added here */
