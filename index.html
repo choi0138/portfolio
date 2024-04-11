@@ -8,27 +8,28 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <header class="bg-primary text-white text-center py-4">
-        <h1>Your Logo Here</h1>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <!-- Hamburger icon for mobile menu -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <!-- Add other nav items here -->
-                </ul>
+    <header class="text-white text-center">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <div class="container-fluid p-0">
+                <a class="navbar-brand p-0 m-0" href="#">
+                    <img src="images/header-image.png" alt="logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" href="#">HOME</a>
+                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="#">SERVICES</a>
+                        <a class="nav-link" href="#">PORTFOLIO</a>
+                        <a class="nav-link" href="#">BLOG</a>
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </div>
+                </div>
             </div>
         </nav>
+        
     </header>
     
     <main class="container">
@@ -45,8 +46,9 @@
         <!-- Other sections for content -->
     </main>
     
-    <footer class="bg-dark text-white text-center py-3">
+    <footer class="text-white text-center py-3">
         © [2024] Your Brand. All rights reserved.
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

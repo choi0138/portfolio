@@ -8,13 +8,16 @@ header {
     color: #ffffff;
 }
 
-nav.navbar {
-    /* Custom styles for your navigation if needed */
+.navbar-nav .nav-link {
+    background-color: #ff8c00;
+
+    color: white; /* Set the text color for nav items */
 }
 
-main {
-    /* Styles for the main content area */
+.nav-link:hover {
+    color: #000; /* Color for active or hovered nav items */
 }
+
 
 footer {
     background-color: #172D7E; /* Dark footer */
