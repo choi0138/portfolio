@@ -2,25 +2,30 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-header {
-    /* You can add a background image or color here */
-    background-color: #2C4BBE; /* Example color based on your screenshot */
+body {
+    background-color: #2C4BBE;
     color: #ffffff;
+}
+
+/* nav hamburger menu color */
+.navbar-toggler-icon {
+    filter: invert(100%);
 }
 
 .navbar-nav .nav-link {
     background-color: #ff8c00;
 
-    color: white; /* Set the text color for nav items */
+    color: white; 
 }
 
+/* Color for active or hovered nav items */
 .nav-link:hover {
-    color: #000; /* Color for active or hovered nav items */
+    color: #000; 
 }
 
 
 footer {
-    background-color: #172D7E; /* Dark footer */
+    background-color: #172D7E;
 }
 
 /* Responsive image/video styles */
