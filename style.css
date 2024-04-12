@@ -1,8 +1,5 @@
 body {
     font-family: 'Open Sans', sans-serif;
-}
-
-body {
     background-color: #2C4BBE;
     color: #ffffff;
 }
@@ -44,6 +41,15 @@ body {
     border: 0;
   }
 
+
+  #toTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Hidden by default */
+    z-index: 99; /* Make sure it appears above other elements */
+    /* Additional styles here */
+}
 
 
 footer {
