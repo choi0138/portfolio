@@ -68,3 +68,17 @@ footer {
 }
 
 /* Other responsive and custom styles can be added here */
+
+/* Styles for medium devices (>=768px) */
+@media (min-width: 768px) {
+    .header-image {
+        background-image: url('path-to-medium-header-image.png');
+    }
+}
+
+/* Styles for large devices (>=992px) */
+@media (min-width: 992px) {
+    .header-image {
+        background-image: url('path-to-large-header-image.png');
+    }
+}
