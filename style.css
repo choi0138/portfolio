@@ -18,10 +18,32 @@ body {
     color: white; 
 }
 
+.mobilelandingtagline {
+    color: #ff8c00;
+}
+
 /* Color for active or hovered nav items */
 .nav-link:hover {
     color: #000; 
 }
+
+/* logo video setting */
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* Aspect ratio of 16:9 (100%/16*9 = 56.25%) */
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
 
 
 footer {
