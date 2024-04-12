@@ -70,6 +70,29 @@ h5 { font-size: 1rem; }
     /* Additional styles here */
 }
 
+/* style for contact card and contact form */
+.contact-card, .card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #004a99;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.contact-text, .card-body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #004a99;
+}
+
 footer {
     background-color: #172D7E;
 }
@@ -92,7 +115,7 @@ footer {
     h3 { font-size: 2rem; }
     h4 { font-size: 1.75rem; }
     h5 { font-size: 1.5rem; }
-    .navbar-text, li {
+    .navbar-text, li, div {
         font-size: 1.25rem; /* Slightly larger font size on medium devices */
     }
     .background-image {
@@ -121,7 +144,7 @@ footer {
     h3 { font-size: 2.5rem; }
     h4 { font-size: 2.25rem; }
     h5 { font-size: 2rem; }
-    .navbar-text, li {
+    .navbar-text, li, div {
         font-size: 1.5rem;
     }
     .navbar-collapse.collapse.show {
