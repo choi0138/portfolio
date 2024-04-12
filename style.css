@@ -14,6 +14,13 @@ h3 { font-size: 1.5rem; }
 h4 { font-size: 1.25rem; }
 h5 { font-size: 1rem; }
 
+.background-image {
+    background-image: url('images/contact-sm.png');
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Set to the height of the viewport */
+}
 
 
 /* nav hamburger menu color */
@@ -88,6 +95,13 @@ footer {
     .navbar-text, li {
         font-size: 1.25rem; /* Slightly larger font size on medium devices */
     }
+    .background-image {
+        background-image: url('images/contact-md.png');
+        background-size: cover; /* Cover the entire page */
+        background-position: center; /* Center the background image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        height: 100vh; /* Set to the height of the viewport */
+    }
 
     
 }
@@ -113,5 +127,12 @@ footer {
     .navbar-collapse.collapse.show {
         max-width: 200px;
         margin-left: auto;
+    }
+    .background-image {
+        background-image: url('images/contact-lg.png');
+        background-size: cover; /* Cover the entire page */
+        background-position: center; /* Center the background image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        height: 100vh; /* Set to the height of the viewport */
     }
 }
