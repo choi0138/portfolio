@@ -78,9 +78,6 @@ footer {
 
 /* Styles for medium devices (>=768px) */
 @media (min-width: 768px) {
-    .header-image {
-        background-image: url('path-to-medium-header-image.png');
-    }
     p {
         font-size: 1.4rem;
     }
@@ -95,8 +92,10 @@ footer {
 
 /* Styles for large devices (>=992px) */
 @media (min-width: 992px) {
-    .header-image {
-        background-image: url('path-to-large-header-image.png');
+    .navbar-nav {
+        background-color: #ff8c00;
+        padding-left: 15%; /* Adjust the percentage as needed */
+        padding-right: 15%;
     }
     p {
         font-size: 1.8rem;
