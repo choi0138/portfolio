@@ -22,7 +22,7 @@
             </div>
     
             <!-- ABOUT text in the center -->
-            <!-- We use col-8 here to center the ABOUT text -->
+            <!-- I use col-8 here to center the ABOUT text -->
             <div class="col-8 d-flex justify-content-center">
                 <span class="navbar-text text-white">
                     ABOUT
@@ -63,22 +63,66 @@
     </nav>
 
     <!-- Page Content -->
-    <picture class="image-container position-relative d-flex justify-content-center">
+    <picture class="image-container d-flex justify-content-center">
         <source media="(min-width: 768px)" srcset="images/about-main-md.png">
         <img src="images/about-main-sm.png" alt="how-to-work-image" class="img-fluid">
     </picture>
     <div class="row justify-content-center">
-        <div class="col-lg-10 mt-5 text-center ">
+        <div class="col-md-10 mt-1 text-center ">
             <h3 class="text-uppercase font-weight-bold">Navigate Success with Cadence Creative</h3>
             <p>Embark on a journey of innovation and shared success with Cadence Creative. Like a steadfast cruise ship on its voyage, we represent the journey of branding with our clients—reliable, responsible, and committed to excellence. Our partnership is the vessel by which we navigate the creative seas, ensuring your brand’s story is not only heard but felt and remembered. Together, on this shared voyage, we guarantee results because we’re in the same boat, dedicated to achieving greatness side by side.</p>
         </div>
     </div>
 
-    <div class="container mt-4">
-        <!-- Content goes here -->
+    <div class="container"> 
+        <div class="row justify-content-center">
+            <div class="col-10 col-md-5 mt-md-5"> 
+                <picture class="d-flex justify-content-center">
+                    <source media="(min-width: 768px)" srcset="images/about-myself-md.png">
+                    <img src="images/about-myself-sm.png" alt="About Myself Image" class="img-fluid">
+                </picture>
+            </div>
+            <div class="col-9 col-md-6 mt-md-5">
+                <p class="mb-1 fw-bold text-bg-warning text-center">Gotten (Manager)</p>
+                <p>Photographer, Videographer, Musician, Sound Designer,  Web Developer</p>
+            </div>
+        </div>
     </div>
-
     <!-- Bootstrap JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <footer class="text-white text-center py-3 mt-5">
+        <a class="navbar-brand text-white pe-5" href="index.html">
+            <i class="fas fa-home"></i> <!-- This is the Font Awesome home icon -->
+        </a>
+        © [2024] Creative Cadence. All rights reserved. 
+        <a href="contact.html", class="ps-5"><img src="images/cruise-ticket-icon.png" alt="cruise-ticket-contact-icon"></a>
+
+    </footer>
+
+    <button id="toTopBtn" title="Go to top" class="btn btn-secondary position-fixed bottom-0 end-0 m-3" style="display: none;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+<script>
+    // Get the button
+    var mybutton = document.getElementById("toTopBtn");
+
+    // When the user scrolls down 100px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    mybutton.addEventListener('click', function() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
