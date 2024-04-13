@@ -11,8 +11,8 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-
-    <nav class="navbar navbar-light bg-transparent">
+    <a href="#mainContent" class="skip-link">Skip to main content</a>
+    <nav role="navigation" class="navbar navbar-light bg-transparent">
         <div class="container-fluid">
             <!-- Home Icon on the left -->
             <div class="col-2 d-flex align-items-centerm">
@@ -31,7 +31,7 @@
     
             <!-- Hamburger Menu on the right -->
             <div class="col-2 d-flex justify-content-end">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button role="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
@@ -61,7 +61,7 @@
             </div>
         </div>
     </nav>
-<div class="background-image">
+<div class="background-image" id="mainContent">
     <h1 class="text-center pt-5 pb-1 mb-1">WELCOME ABOARD</h1>
 
     <!-- contact card -->
@@ -113,7 +113,7 @@
                                 <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
                             </div>
                             <div class="d-grid">
-                                <button type="submit" class="btn btn-primary fw-bold">SUBMIT</button>
+                                <button role="button" type="submit" class="btn btn-primary fw-bold">SUBMIT</button>
                             </div>
                         </form>
                     </div>
@@ -125,7 +125,7 @@
 
 
 
-    <footer class="text-white text-center py-3 mt-5">
+    <footer role="contentinfo" class="text-white text-center py-3 mt-5">
         <a class="navbar-brand text-white pe-5" href="index.html">
             <i class="fas fa-home"></i> <!-- This is the Font Awesome home icon -->
         </a>
@@ -134,7 +134,7 @@
 
     </footer>
 
-    <button id="toTopBtn" title="Go to top" class="btn btn-secondary position-fixed bottom-0 end-0 m-3" style="display: none;">
+    <button role="button" id="toTopBtn" title="Go to top" class="btn btn-secondary position-fixed bottom-0 end-0 m-3" style="display: none;">
         <i class="fas fa-arrow-up"></i>
     </button>
 

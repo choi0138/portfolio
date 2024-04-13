@@ -11,18 +11,19 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <header class="text-white text-center">
+    <a href="#mainContent" class="skip-link">Skip to main content</a>
+    <header role="banner" class="text-white text-center">
         <a class="navbar-brand p-0 m-0" href="index.html">
             <!-- header image -->
             <picture>
                 <source media="(min-width: 992px)" srcset="images/header-image-lg.png">
                 <source media="(min-width: 768px)" srcset="images/header-image-md.png">
-                <img src="images/header-image.png" alt="logo" class="img-fluid">
+                <img src="images/header-image.png" alt="header-cruise-image" class="img-fluid">
             </picture>
         </a>
     </header>
     
-    <nav class="navbar navbar-expand-lg navbar-light p-0">
+    <nav role="navigation" class="navbar navbar-expand-lg navbar-light p-0">
         <div class="container-fluid p-0">
                         <!-- Collapsible content -->
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
@@ -48,12 +49,12 @@
                 </ul>
             </div>
                         <!-- Hamburger Menu on the right -->
-            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button role="button" class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
     </nav>
-        <main class="container">
+    <main id="mainContent" tabindex="-1" role="main" class="container">
             <section class="row my-4 text-center text-warning">
                 <div class="col-12">
                     <h1 class="mb-0">READY FOR A FAST TRACK TO BRANDING SUCCESS?</h1>
@@ -86,13 +87,13 @@
                 </div>
 
             </section>
-        </main>
+    </main>
     
-    <footer class="text-white text-center py-3">
+    <footer role="contentinfo" class="text-white text-center py-3">
         © [2024] Creative Cadence. All rights reserved. 
     </footer>
 
-    <button onclick="topFunction()" id="toTopBtn" title="Go to top" class="btn btn-secondary position-fixed bottom-0 end-0 m-3" style="display: none;">
+    <button role="button" onclick="topFunction()" id="toTopBtn" title="Go to top" class="btn btn-secondary position-fixed bottom-0 end-0 m-3" style="display: none;">
         <i class="fas fa-arrow-up"></i>
     </button>
 

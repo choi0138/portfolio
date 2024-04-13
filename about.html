@@ -11,8 +11,8 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-
-    <nav class="navbar navbar-light bg-transparent">
+    <a href="#mainContent" class="skip-link">Skip to main content</a>
+    <nav role="navigation" class="navbar navbar-light bg-transparent">
         <div class="container-fluid">
             <!-- Home Icon on the left -->
             <div class="col-2 d-flex align-items-center">
@@ -31,7 +31,7 @@
     
             <!-- Hamburger Menu on the right -->
             <div class="col-2 d-flex justify-content-end">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button role="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
@@ -63,6 +63,7 @@
     </nav>
 
     <!-- Page Content -->
+    <main role="main" id="mainContent">
     <picture class="image-container d-flex justify-content-center">
         <source media="(min-width: 768px)" srcset="images/about-main-md.png">
         <img src="images/about-main-sm.png" alt="how-to-work-image" class="img-fluid">
@@ -88,8 +89,9 @@
             </div>
         </div>
     </div>
+    </main>
     <!-- Bootstrap JavaScript Bundle with Popper -->
-    <footer class="text-white text-center py-3 mt-5">
+    <footer role="contentinfo" class="text-white text-center py-3 mt-5">
         <a class="navbar-brand text-white pe-5" href="index.html">
             <i class="fas fa-home"></i> <!-- This is the Font Awesome home icon -->
         </a>

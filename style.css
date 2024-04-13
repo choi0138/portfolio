@@ -1,7 +1,30 @@
+:root {
+    --bs-primary: #2C4BBE; /* My primary color */
+  }
+  
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #2C4BBE;
+    background-color: var(--bs-primary);
     color: #ffffff;
+  }
+
+a:focus, button:focus {
+    outline: 2px solid #2C4BBE; /* Visible outline when element is focused */
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #2C4BBE;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: 0;
 }
 
 h1, h2, h3, h4, h5 {
